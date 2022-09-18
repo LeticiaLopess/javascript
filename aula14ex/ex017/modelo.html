@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo para Exercícios</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            Testando...
+            <p>Número: <input type="number" name="num" id="txtn"> <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p> <!--onclick - retomado na function em JS, significa que quando eu clicar no botão "Gerar Tabuada" a função tabuada será executada, ou seja, todo nosso código em JS lá-->
         </div>
         <div>   
-
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select> <!--onde irá aparecer a tabuada--> <!--size=10 pois a tabuada tem 10 linhas-->
         </div>
     </section>
     <footer>

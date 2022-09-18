@@ -22,3 +22,8 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+p.res {
+    height: 10px;
+    width: 30px;
+}
