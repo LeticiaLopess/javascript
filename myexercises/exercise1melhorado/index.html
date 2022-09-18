@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <header>
+                <h1>Average Calculation</h1>
+            </header>
+            <section class="card">
+                <div>
+                    <input type="number" name="grade" id="grade">
+                </div>
+                <div class="numbers">
+                    <span>Números:</span> <span id="values"></span>
+                </div>
+                <div class="buttonsWrapper">
+                    <button id="addGrade" onclick="addGrade()">
+                        Adicionar
+                    </button>
+                    <button id="getAverage" onclick="getAverage()">
+                        Média
+                    </button>
+                </div>
+            </section>
+            <footer class="result">
+                <span>Resultado:</span> <span id="res"></span>
+            </footer>
+        </div>
+    </div>
+    <div>
+    </div>  
+    <script src="./script.js"></script>
+    
+</body>
+</html>
